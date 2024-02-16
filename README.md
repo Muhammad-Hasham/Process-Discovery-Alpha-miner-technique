@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This program utilizes the -miner technique to extract process models from event logs. Its foundation was the notion of directly-follows relationships between activities in the log, with the goal of identifying the process' control-flow structure. Based on the order of occurrence in the log, I iteratively created a footprint table to illustrate the links between various actions. The simultaneous operations were then identified using a variety of rules, and the process model was built using sets of locations and flow interactions. 
+This program utilizes the Alpha-miner technique to extract process models from event logs. Its foundation was the notion of directly-follows relationships between activities in the log, with the goal of identifying the process' control-flow structure. Based on the order of occurrence in the log, I iteratively created a footprint table to illustrate the links between various actions. The simultaneous operations were then identified using a variety of rules, and the process model was built using sets of locations and flow interactions. 
 
 In this implementation, I read and worked with event log data contained in a CSV file using the “pandas” library (imported as pd). For preprocessing and interacting with the event log data, it offered effective data manipulation, filtering, and analysis tools. 
 
